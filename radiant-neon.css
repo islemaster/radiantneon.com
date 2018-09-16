@@ -1,0 +1,50 @@
+body {
+  margin-top: 50px;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+}
+h1, h2 {
+  font-family: 'Poiret One', cursive;
+}
+#logo {
+  max-width: 90%;
+}
+
+.photos {
+  padding: 0px 50px;
+  display: flex;
+  justify-content: center;
+}
+.photos div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 800px;
+}
+.photos img {
+  width: 160px;
+  height: 160px;
+}
+
+.social-media {
+  padding: 20px;
+  font-size: 30pt;
+}
+.social-media a {
+  color: black;
+}
+.social-media a:hover {
+  color: #f53c00;
+}
+
+.credits {
+  font-size: small;
+  color: gray;
+}
+.credits a {
+  color: gray;
+  text-decoration: none;
+}
+.credits a:hover {
+  color: #f53c00;
+}
