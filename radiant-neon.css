@@ -21,6 +21,11 @@ h1, h2 {
   justify-content: center;
   max-width: 800px;
 }
+@media (max-width: 900px) {
+  .photos div {
+     max-width: 400px;
+  }
+}
 .photos img {
   width: 160px;
   height: 160px;
