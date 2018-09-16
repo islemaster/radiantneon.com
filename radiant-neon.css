@@ -21,14 +21,21 @@ h1, h2 {
   justify-content: center;
   max-width: 800px;
 }
-@media (max-width: 900px) {
-  .photos div {
-     max-width: 400px;
-  }
-}
 .photos img {
   width: 160px;
   height: 160px;
+}
+
+.credits {
+  font-size: small;
+  color: gray;
+}
+.credits a {
+  color: gray;
+  text-decoration: none;
+}
+.credits a:hover {
+  color: #f53c00;
 }
 
 .social-media {
@@ -42,14 +49,18 @@ h1, h2 {
   color: #f53c00;
 }
 
-.credits {
-  font-size: small;
-  color: gray;
-}
-.credits a {
-  color: gray;
-  text-decoration: none;
-}
-.credits a:hover {
-  color: #f53c00;
+@media (max-device-width: 500px) {
+  h1 {
+    font-size: 300%;
+  }
+  .photos div {
+     max-width: 500px;
+  }
+  .photos img {
+    width: 240px;
+    height: 240px;
+  }
+  .social-media {
+    font-size: 60pt;
+  }
 }
