@@ -20,6 +20,8 @@ h1, h2 {
   flex-wrap: wrap;
   justify-content: center;
   max-width: 800px;
+  border-radius: 25px;
+  overflow: hidden;
 }
 .photos img {
   width: 160px;
