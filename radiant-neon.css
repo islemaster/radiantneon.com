@@ -1,14 +1,84 @@
 body {
-  margin-top: 50px;
   text-align: center;
-  font-family: 'Poiret One', cursive;
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  min-height: 100vh;
 }
+
 h1, h2 {
   font-family: 'Poiret One', cursive;
 }
+
+/* Main navigation (About / Artwork / Prices) */
+.nav-main {
+  font-family: 'Poiret One', cursive;
+  font-variant: small-caps;
+}
+
 #logo {
+  margin-top: 50px;
   max-width: 90%;
 }
+
+/* Header - for all pages but homepage */
+header {
+}
+  header #logo {
+    max-height: 80px;
+    max-width: 300px;
+    margin-top: 0;
+  }
+  header nav.nav-main {
+    margin-top: 10px;
+    font-size: 18pt;
+  }
+    header nav.nav-main a {
+      color: black;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  header nav.social-media {
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-size: 18pt;
+  }
+    header nav.social-media a {
+      display: block;
+      color: #666;
+    }
+    /* Hide on narrow screens */
+    @media (max-width: 900px) {
+      header nav.social-media {
+        display: none;
+      }
+    }
+
+/* Page body */
+main {
+  margin: 1em;
+  max-width: 750px;
+  flex-grow: 1;
+}
+
+article {
+  text-align: left;
+  font-size: 12pt;
+}
+  article h1 {
+  }
+  article h2 {
+    font-size: 16pt;
+  }
+
+/* Footer (except home page) */
+footer {
+}
+
+
 
 .photos {
   padding: 0px 50px;
